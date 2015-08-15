@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/addtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:textColor="#1c96ff"
+        android:textSize="50dp"/>
+   <Button
+       android:id="@+id/adddate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Add date"
+       android:layout_below="@id/addtitle"
+       android:textColor="#1c96ff"
+       android:background="#00ff0000"/>
+    <Button
+        android:id="@+id/addtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addtitle"
+        android:layout_alignParentRight="true"
+        android:text="Add time"
+        android:textColor="#1c96ff"
+        android:background="#00ff0000"/>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adddate"
+        android:text="Save"
+        android:textColor="#1c96ff"
+        android:background="#00ff0000"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/addtime"
+        android:text="Delete"
+        android:textColor="#1c96ff"
+        android:background="#00ff0000"/>
+
+</RelativeLayout>
